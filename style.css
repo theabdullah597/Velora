@@ -749,9 +749,9 @@ img {
 }
 
 .logo-img {
-    height: 120px;
+    height: 60px;
     /* Adjust based on your logo */
-    width: 100%;
+    width: auto;
     display: block;
     margin: 0;
     transition: transform 0.3s ease;
@@ -772,7 +772,7 @@ img {
 /* Mobile logo size */
 @media (max-width: 768px) {
     .logo-img {
-        height: 72px;
+        height: 52px;
         /* Smaller on mobile */
     }
 
@@ -858,7 +858,7 @@ img {
 }
 
 .loader-logo img {
-    height: 90px;
+    height: 50px;
     width: auto;
     animation: pulse 2s infinite;
 }
@@ -2876,7 +2876,7 @@ textarea:focus-visible {
 }
 
 .footer-brand .logo-img {
-    height: 80px;
+    height: 60px;
     width: auto;
     display: block;
 }
